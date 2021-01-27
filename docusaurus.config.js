@@ -13,7 +13,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -98,6 +98,21 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
+    ],
+    [
+      'redocusaurus',
+      {
+       
+        specs: [
+          {
+            specUrl: 'https://redocly.github.io/redoc/openapi.yaml',
+            routePath: '/api/'
+          }
+        ],
+        theme: {
+          primaryColor: '#1890ff',
+        },
+      }
     ],
   ],
 };
