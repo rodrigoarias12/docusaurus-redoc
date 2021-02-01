@@ -105,7 +105,7 @@ module.exports = {
        
         specs: [
           {
-            specUrl: 'https://redocly.github.io/redoc/openapi.yaml',
+            specUrl: 'https://openbankapiargentina.azurewebsites.net/swagger/v1/swagger.json',
             routePath: '/api/'
           }
         ],
